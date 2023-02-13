@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+}
+
+
+body,#root{
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+ 
+}
+
+#root{
+display: flex;
+flex-direction: column;
+}
+
+.contain-padding{
+  background-color:  #fff;
+  padding-bottom: 20rem;
+  
+}
+.body{
+   padding-bottom:10rem;
+}
+html{
+  font-size: 75%;
+ 
+}
+
+/* slider */
+
+.slider{
+  height: 500px;
+
+}
+
+
+/* Nav bar */
+
+.title{
+  font-size: 2rem;
+  margin-top: 5rem;
+  text-align: center;
+
+}
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 2.5rem;
+  background-color: rgb(181, 208, 216);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 900;
+
+}
+.logo{
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  font-family:"Tangerine";
+
+}
+.logo span{
+  color:rgb(104, 101, 101) ;
+  font-size: 2rem;
+}
+.search{
+  width: 30rem;
+  border-radius: 2rem;
+  
+}
+.btn{
+  background-color: rgb(149, 179, 192);
+  color: #fff;
+  border-color:#fff;
+}
+.btn:hover{
+  background-color: rgb(151, 149, 149);
+}
+form{
+  display: flex;
+ 
+}
+form input{
+  padding: 10px;
+ 
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+ 
+}
+
+
+.navbar a{
+  text-decoration: none;
+  padding-left: 2rem;
+  color: #fff;
+  font-size: 1.1rem;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.icons a{
+  color: #fff;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1rem;
+}
+
+.icons a i{
+  margin-left:-1.5rem;
+}
+
+a:hover{
+  color:rgb(236, 243, 247);
+}
+.hover:hover{
+  color: #333;
+}
+
+ nav .color{
+  color: #333;
+}
+.bold{
+  margin-top: 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.toggle{
+  display: none;
+}
+
+
+/* Cards */
+
+.head{
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 5rem;
+
+}
+
+.cards{
+  position: absolute;
+  top :3rem;
+  left:20rem;
+}
+.card {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.card img{
+  height: 250px;
+}
+.align{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* basket */
+
+.card-basket{
+  margin-top: 5rem;
+}
+.start{
+  margin-top: 5rem;
+}
+/* side bar */
+
+.sidebar{
+  position: relative;
+}
+
+.position{
+  position: absolute;
+  top: 3rem;
+  left: 0;
+}
+
+/* About section */
+
+.contain{
+  display: flex;
+  flex-direction: column;
+
+}
+.contain p{
+  color: #333;
+  font-weight: bold;
+}
+.contain h3{
+  color: rgb(181, 208, 216);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.btnn{
+  width: 1rem;
+}
+
+
+/* card slider */
+
+.card-body{
+  text-align: center;
+}
+.card{
+  overflow: hidden;
+}
+.card img.img-fluid{
+  transition: 0.7s ease;
+  cursor: pointer;
+}
+.card:hover img.img-fluid{
+  transform: scale(1.1);
+}
+.a{
+  border-color: #fff;
+}
+.a:hover{
+  background-color: rgb(124, 122, 122);
+}
+.content{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.content h3{
+  padding: 0 0.5rem;
+}
+.content i{
+  font-size: 1.5rem;
+  color: rgb(110, 104, 104);
+  border-radius: 50%;
+  padding: 0.5rem;
+  border: rgb(245, 234, 234) solid;
+  
+  cursor: pointer;
+
+}
+.price{
+  font-size: 1.5rem;
+}
+.price span{
+  text-decoration: line-through;
+}
+
+button{
+  background-color: rgb(149, 179, 192);
+  border: rgb(149, 179, 192);
+  padding: 0.7rem;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+/* Details */
+
+.details-containter{
+  margin-top: 8rem;
+}
+
+.details-containter img{
+  width: 100%;
+  height: 100%;
+}
+
+.card-text span{
+  text-decoration: line-through;
+}
+.font-w{
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #333;
+}
+
+/* footer */
+
+
+.align-footer{
+  position:absolute;
+  bottom:0; left: 0; right: 0;
+  background-color: rgb(149, 179, 192);
+  width:100%;
+  align-self: flex-end;
+  overflow: hidden;
+  /* this will make the footer always at the bottom of the page as much as possible instead of absolute*/
+
+  /*  margin-top: auto;  */
+  
+}
+
+
+
+/* form */
+
+
+.form-body{
+  background-color: #fff;
+}
+
+.window{
+  border: rgb(109, 104, 104) solid;
+  padding: 0.7rem;
+  margin: 10rem auto;
+  width: 30rem;
+  border-radius: 20px;
+}
+.heading{
+  text-align: center;
+}
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  
+}
+.btnn{
+  margin: 15px auto;
+  padding: 5px;
+  border-radius: 5px;
+  width: 95%;
+  color: #fff;
+  background-color: rgb(149, 179, 192);
+  cursor: pointer;
+  font-weight: 1000;
+  font-size: 1.2rem;
+}
+.text{
+  margin: auto;
+  
+}
+
+form .formInput input{
+  padding: 6px;
+  margin: 10px;
+  border-radius: 5px;
+
+}
+
+
+@media (max-width:1100px){
+  html{
+      font-size: 70%;
+  
+  }
+ .navbar{
+  display: flex;
+ }
+ 
+ .footer{
+  margin-top: 100vh;
+  background-color: rgb(149, 179, 192);
+  width:100vw; 
+}
+.position{
+  display: none;
+}
+.footer-container .footer{
+  display: flex;
+  flex-direction: column;
+}
+
+#root{
+  padding-bottom:5rem ;
+}
+
+.col-2{
+  display: none;
+}
+.col-10{
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+  
+}
+
+
+@media (max-width:1000px){
+   .fa-bars{
+        display: block;
+    }
+   
+     .navbar{
+       display: none;
+       
+    }
+    .header form input{
+      display: block;
+     width: 40rem;
+     margin-left: 3rem;
+
+    }
+   .navbar.active{
+        position: absolute;
+        top: 100%; left:0;right: 0;
+        background: linear-gradient(to top, rgba(0,0,0,0.8)80%,rgba(0,0,0,0.8)80%);
+        border-top: 0.1 solid rgb(0,0,0,0.1);
+        width: 100%;
+        height: auto;
+        padding-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        visibility: visible;
+    }
+
+    .navbar a{
+        font-size: 2rem;
+        margin-top: 3rem;
+        padding: 1rem 0;
+        display: block;
+        color: rgb(197, 189, 189);
+        text-align: center;
+        transition: all .5s;
+    
+    }
+    .navbar a:hover{
+        color: rgb(129, 199, 223);
+    }
+
+   .navbar.active{
+        left: 0;
+    }
+
+    .icons{
+        margin-left:auto ;
+    }
+    .header form input{
+      margin-left: 2rem;
+
+    }
+   
+    button.toggle{
+        display: block;
+        width: 3rem;
+        font-size: 1.2rem;
+        margin-right: -1.5rem;
+    }}
+    
+
+    @media (max-width:770px){
+
+      #root{
+        padding-bottom:40rem ;
+      }
+     
+      .header form input{
+       margin-left: 4rem;
+        width: 30rem;
+  
+      }
+    }
+    @media (max-width:650px){
+      .header form input{
+        margin-left: 4rem;
+         width: 20rem;
+   
+       }
+
+    }
+
+      @media (max-width:530px){
+        .header form input{
+          display: none;
+         
+        }
+      }
