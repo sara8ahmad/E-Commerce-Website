@@ -15,4 +15,4 @@
 
 ### npm start
 
-Note that the ( JSON Server ) must also be running to support the app's API calls.
+Note that the [JSON Server](https://github.com/sara8ahmad/JSON-Server) must also be running to support the app's API calls.
