@@ -1,4 +1,4 @@
-# E-Commerce-Website
+# E-Commerce Website
 Furniture Website using React Hooks to compose reusable UI components with a JSON server. 
 # Screen Shots
 ![f3](https://user-images.githubusercontent.com/111248837/224480649-b14ebcd3-7190-477b-ada1-0d797ded9a5f.PNG)
