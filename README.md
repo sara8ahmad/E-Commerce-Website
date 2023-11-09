@@ -5,4 +5,23 @@ Furniture Website using React Hooks to compose reusable UI components with a JSO
 ![n](https://user-images.githubusercontent.com/111248837/224480795-9b678cb1-d124-480b-975f-5757432559e9.PNG)
 ![e](https://user-images.githubusercontent.com/111248837/224480974-001af6f3-9c15-40c6-8a88-cfa9bea7816d.PNG)
 ![Web capture_9-3-2023_145020_localhost](https://user-images.githubusercontent.com/111248837/224481138-5485ac92-61b6-4b2d-b56b-c083672f63cd.jpeg)
-![Web capture_9-3-2023_14512_localhost](https://user-images.githubusercontent.com/111248837/224481153-9fd864a5-6fe1-4ff8-a1a3-eaa54c80924b.jpeg)
+
+# Run Project Locally 
+To get started with [ E-Commerce-Website ], follow these steps:
+
+### `npm install`
+
+Run npm install to install all needed dependencies.
+
+### `npm start`
+
+To start the development server use npm start command
+
+# Contributing
+Contributions are welcome! If you'd like to contribute to [ E-Commerce-Website ], please follow these steps:
+
+- Fork the repository.
+- Create a new branch for your feature/bug fix.
+- Make your changes.
+- Commit and push your changes to your forked repository.
+- Submit a pull request with a clear description of your changes.
