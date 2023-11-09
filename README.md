@@ -1,5 +1,5 @@
 # E-Commerce Website
-Furniture Website using React Hooks to compose reusable UI components with a JSON server. 
+This project is furniture website developed using React Hooks to efficiently compose reusable UI components, accompanied by a JSON server for data management and interactions. 
 # Screen Shots
 ![f3](https://user-images.githubusercontent.com/111248837/224480649-b14ebcd3-7190-477b-ada1-0d797ded9a5f.PNG)
 ![n](https://user-images.githubusercontent.com/111248837/224480795-9b678cb1-d124-480b-975f-5757432559e9.PNG)
